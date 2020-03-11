@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <form method="post" action="StudentServlet">
+            
+            <table>
+                
+                <tr>
+                    <td><label>Student Name : </label></td>
+                    <td><input type="text" name="txtsname" placeholder="Enter Full Name"/></td>
+                </tr>
+                
+                <tr>
+                    <td><label>Gender : </label></td>
+                    <td><input type="radio" name="rdb" value="Male"/> Male &nbsp; 
+                        <input type="radio" name="rdb" value="Female" />Female</td>
+                </tr>
+                
+                <tr>
+                    <td><label>Language You Know : </label></td>
+                    <td> <input type="checkbox" name="languages" value="Gujarati"> Gujarati &nbsp;
+                            <input type="checkbox" name="languages" value="English"> English&nbsp;
+                            <input type="checkbox" name="languages" value="English"> French</td>
+                </tr>
+                
+                <tr>
+                    <td><label>Student Phone Number : </label></td>
+                    <td><input type="text" name="txtphno" placeholder="Phone Number Start wirh +91-"/></td>
+                </tr>
+                
+                <tr>
+                    <td><label>City : </label></td>
+                    <td><select name="city">
+                                <option value="surat">Surat</option>
+                                <option value="vadodara">Mumbai</option>
+                                <option value="ahemdabad">Pune</option>
+                                <option value="rajkot">Chennai</option>
+                                <option value="navsari">Delhi</option>
+                                <option value="ankleshver">Rajsthan</option>
+                          </select>
+                    </td>
+                </tr>
+                
+                <tr>
+                    <td><label>Photo Upload : </label></td>
+                    <td><input type="file" name="photo"></td>
+                </tr>
+                
+                <tr>
+                    <td>
+                        <input type="submit" value="submit" name="submit" />
+                    </td>
+                </tr>
+                
+            </table>
+        </form>
+    </body>
+</html>

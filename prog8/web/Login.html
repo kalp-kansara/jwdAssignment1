@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="https://www.google.com/recaptcha/api.js"></script>
+    </head>
+    <body>
+        <form method="post" action="HomeServlet">
+            
+            <table align="center">
+                <tr>
+                    <td><label>UserName : </label></td>
+                    <td><input type="text" name="txtusername" /></td>
+                </tr>
+                
+                <tr>
+                    <td><label>Password : </label></td>
+                    <td><input type="password" name="txtpassword" /></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td><div class="g-recaptcha" data-sitekey="6LcI3t4UAAAAAFEu-0E4TGBgDz06Wr0NAsrKDqjl"></div></td>
+                </tr>
+                
+                <tr>
+                    <td>No account? <a href="Regisration.html">Create one!</a></td>
+                </tr>
+                
+                <tr>
+                    <td><input type="submit" value="LOGIN" name="submit" /></td>
+                </tr>
+            </table>
+            
+        </form>
+    </body>
+</html>
